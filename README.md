@@ -7,3 +7,29 @@ IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing
 DOI: 10.1109/JSTARS.2019.2934011
 Accepted for publication, 2019.
 ```
+
+![NVIDIA profiler](https://github.com/mhaut/gpu_plsa_unmixing_HSI/images/Pipeline.jpg "NVIDIA profiler")
+
+
+
+## Example of use
+### Download datasets
+
+```
+./retrieveData.sh
+```
+
+#### Run code
+```
+cd cuda
+```
+
+#### Probabilistic Latent Semantic Analysis
+```
+python -u main.py pLSA samson 0 --seed 0
+```
+
+#### Dual-Depth Sparse Probabilistic Latent Semantic Analysis
+```
+python -u main.py  dpLSA samson 0 --dplsa_dim 250 --seed 0
+```
