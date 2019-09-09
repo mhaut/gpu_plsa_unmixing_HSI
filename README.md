@@ -8,7 +8,7 @@ DOI: 10.1109/JSTARS.2019.2934011
 Accepted for publication, 2019.
 ```
 
-![NVIDIA profiler](https://github.com/mhaut/gpu_plsa_unmixing_HSI/images/Pipeline.jpg "NVIDIA profiler")
+![NVIDIA Profiler](https://github.com/mhaut/gpu_plsa_unmixing_HSI/blob/master/images/Pipeline.jpg)
 
 
 
